@@ -39,6 +39,7 @@ else
     }
 }
 
+// Решение 2
 
 int max;
 if (a > b)
