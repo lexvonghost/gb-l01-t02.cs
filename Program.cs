@@ -1,9 +1,14 @@
 ﻿// Задача 2: Напишите программу, которая принимает на
 // вход три числа и выдаёт максимальное из этих чисел.
 
-int a = 44;
-int b = 5;
-int c = 78;
+Console.WriteLine("Введите число а: ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите число b: ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите число c: ");
+int c = Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
